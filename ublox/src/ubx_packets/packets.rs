@@ -2747,7 +2747,7 @@ struct CfgRate {
 
     /// Alignment to reference time
     #[ubx(map_type = AlignmentToReferenceTime)]
-    time_ref: u8,
+    time_ref: u16,
 
     /// Priority Navigation Rate
     nav_rate_priority: u8,
