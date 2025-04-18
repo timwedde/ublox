@@ -2735,7 +2735,7 @@ bitflags! {
 
 /// Navigation/Measurement Rate Settings
 #[ubx_packet_send]
-#[ubx(class = 6, id = 8, fixed_payload_len = 6)]
+#[ubx(class = 6, id = 8, fixed_payload_len = 7)]
 struct CfgRate {
     /// Measurement Rate, GPS measurements are taken every `measure_rate_ms` milliseconds
     measure_rate_ms: u16,
